@@ -1,1 +1,201 @@
-{"KITCHENER CENTRE": [{"name": "Raj Saini", "party": "Liberal - incumbent", "website": "https://rajsaini.liberal.ca/"}, {"name": "Mary Henein Thorn", "party": "Conservative", "website": "https://maryheneinthorn.com/"}, {"name": "Beisan Zubi", "party": "NDP", "website": "https://www.beisanzubi.ca/"}, {"name": "Mike Morrice", "party": "Green Party", "website": "https://mikemorrice.ca/"}, {"name": "Diane Boskovic", "party": "People's Party of Canada", "website": "https://kwcppc.ca/our-ridings/kitchener-centre/"}], "KITCHENER-CONESTOGA": [{"name": "Tim Louis", "party": "Liberal - incumbent", "website": "https://timlouis.liberal.ca/"}, {"name": "Carlene Hawley", "party": "Conservative", "website": "https://carlenehawley.ca/"}, {"name": "Kevin Dupuis", "party": "People's Party", "website": "https://kevindupuis.com/"}], "KITCHENER SOUTH-HESPELER": [{"name": "Valerie Bradford", "party": "Liberal", "website": "https://valeriebradford.liberal.ca/"}, {"name": "Tyler Calver", "party": "Conservative", "website": "https://www.tylercalver.ca/"}, {"name": "Suresh Arangath", "party": "NDP", "website": "https://kitchenersouthhespeler.ndp.ca/"}, {"name": "Melissa Baumgaertner", "party": "People's Party", "website": "https://www.peoplespartyofcanada.ca/melissa_baumgaertner"}, {"name": "Gabe Rose", "party": "Green Party", "website": "https://www.kshgreens.ca/mp-candidate-cdn"}], "WATERLOO": [{"name": "Bardish Chagger", "party": "Liberal - incumbent", "website": "https://bardishchagger.liberal.ca/"}, {"name": "Meghan Shannon", "party": "Conservative", "website": "https://meghanshannon.com/"}, {"name": "Jonathan Cassels", "party": "NDP", "website": "https://waterloo.ndp.ca/"}, {"name": "Patrick Doucette", "party": "People's Party", "website": "https://www.facebook.com/patrick.forcanada"}], "CAMBRIDGE": [{"name": "Bryan May", "party": "Liberal - incumbent", "website": "https://liberal.ca/ridings/35016/"}, {"name": "Connie Cody", "party": "Conservative", "website": "https://conniecody.ca/"}, {"name": "Lorne Bruce", "party": "NDP", "website": "https://cambridge.ndp.ca/"}, {"name": "Michelle Braniff", "party": "Green", "website": "https://www.greenparty.ca/en/riding/2013-35016"}, {"name": "Maggie Segounis", "party": "People's Party", "website": "https://www.peoplespartyofcanada.ca/maggie_segounis"}], "GUELPH": [{"name": "Lloyd Longfield", "party": "Liberal - incumbent", "website": "https://liberal.ca/ridings/35032/"}, {"name": "Ashish Sachan", "party": "Conservative", "website": "https://ashishsachan.ca/"}, {"name": "Aisha Jahangir", "party": "NDP", "website": "https://aishajahangir.ndp.ca/"}, {"name": "Michelle Bowman", "party": "Green Party", "website": "https://www.facebook.com/4Guelph/"}, {"name": "Joshua Leier", "party": "People's Party", "website": "https://www.peoplespartyofcanada.ca/joshua_leier"}], "BRANTFORD-BRANT": [{"name": "Alison Macdonald", "party": "Liberal", "website": "https://liberal.ca/ridings/35013/"}, {"name": "Larry Brock", "party": "Conservative", "website": "https://larrybrock.ca/"}, {"name": "Adrienne Roberts", "party": "NDP", "website": "http://adrienneroberts.ndp.ca"}, {"name": "Cole Squire", "party": "People's Party", "website": "https://www.peoplespartyofcanada.ca/cole_squire"}], "WELLINGTON-HALTON HILLS": [{"name": "Melanie Lang", "party": "Liberal", "website": "https://melanielang.liberal.ca/"}, {"name": "Michael Chong", "party": "Conservative - incumbent", "website": "http://michaelchong.ca"}, {"name": "Ran Zhu", "party": "Green Party", "website": "https://www.whhgreens.com/"}, {"name": "Sylvain Carle", "party": "People's Party", "website": "https://whh-ppc-eda.square.site/our-candidate"}], "PERTH-WELLINGTON": [{"name": "Brendan Knight ", "party": "Liberal", "website": "http://brendanknight.liberal.ca"}, {"name": "John Nater", "party": "Conservative - incumbent", "website": "https://www.perthwellington.ca/"}, {"name": "Kevin Kruchkywich", "party": "NDP", "website": "https://perthwellington.ndp.ca/?_gl=1*j82r2j*_ga*NzQ4NzY0NjQyLjE2MjkyMTczNzc.*_ga_97QLYMLC56*MTYyOTk4NDA1MS4zLjEuMTYyOTk4NDU0MC4w"}, {"name": "Wayne Baker", "party": "People's Party", "website": "https://www.peoplespartyofcanada.ca/wayne_baker"}], "OXFORD": [{"name": "Elizabeth Quinto", "party": "Liberal", "website": "https://elizabethquinto.liberal.ca/"}, {"name": "Dave Mackenzie", "party": "Conservative - incumbent", "website": "https://davemackenzie.ca/"}, {"name": "Matthew Chambers", "party": "NDP", "website": "https://twitter.com/MatthewNewDem"}, {"name": "Wendy Martin", "party": "People's Party", "website": "https://www.facebook.com/wendymartinppc/"}], "HURON-BRUCE": [{"name": "James Rice", "party": "Liberal", "website": "https://jamesrice.liberal.ca/"}, {"name": "Ben Lobb", "party": "Conservative - incumbent", "website": "http://www.benlobb.com/"}, {"name": "Jack Stecho", "party": "People's Party", "website": "https://twitter.com/jackstechoppc?lang=en"}, {"name": "Justin L. Smith", "party": "Independent", "website": "http://www.justinlsmith.ca"}]}
+{
+	"KITCHENER CENTRE": [{
+		"name": "Raj Saini",
+		"party": "Liberal - incumbent",
+		"website": "https://rajsaini.liberal.ca/"
+	}, {
+		"name": "Mary Henein Thorn",
+		"party": "Conservative",
+		"website": "https://maryheneinthorn.com/"
+	}, {
+		"name": "Beisan Zubi",
+		"party": "NDP",
+		"website": "https://www.beisanzubi.ca/"
+	}, {
+		"name": "Mike Morrice",
+		"party": "Green Party",
+		"website": "https://mikemorrice.ca/"
+	}, {
+		"name": "Diane Boskovic",
+		"party": "People's Party of Canada",
+		"website": "https://kwcppc.ca/our-ridings/kitchener-centre/"
+	}],
+	"KITCHENER-CONESTOGA": [{
+		"name": "Tim Louis",
+		"party": "Liberal - incumbent",
+		"website": "https://timlouis.liberal.ca/"
+	}, {
+		"name": "Carlene Hawley",
+		"party": "Conservative",
+		"website": "https://carlenehawley.ca/"
+	}, {
+		"name": "Kevin Dupuis",
+		"party": "People's Party",
+		"website": "https://kevindupuis.com/"
+	}],
+	"KITCHENER SOUTH-HESPELER": [{
+		"name": "Valerie Bradford",
+		"party": "Liberal",
+		"website": "https://valeriebradford.liberal.ca/"
+	}, {
+		"name": "Tyler Calver",
+		"party": "Conservative",
+		"website": "https://www.tylercalver.ca/"
+	}, {
+		"name": "Suresh Arangath",
+		"party": "NDP",
+		"website": "https://kitchenersouthhespeler.ndp.ca/"
+	}, {
+		"name": "Melissa Baumgaertner",
+		"party": "People's Party",
+		"website": "https://www.peoplespartyofcanada.ca/melissa_baumgaertner"
+	}, {
+		"name": "Gabe Rose",
+		"party": "Green Party",
+		"website": "https://www.kshgreens.ca/mp-candidate-cdn"
+	}],
+	"WATERLOO": [{
+		"name": "Bardish Chagger",
+		"party": "Liberal - incumbent",
+		"website": "https://bardishchagger.liberal.ca/"
+	}, {
+		"name": "Meghan Shannon",
+		"party": "Conservative",
+		"website": "https://meghanshannon.com/"
+	}, {
+		"name": "Jonathan Cassels",
+		"party": "NDP",
+		"website": "https://waterloo.ndp.ca/"
+	}, {
+		"name": "Patrick Doucette",
+		"party": "People's Party",
+		"website": "https://www.facebook.com/patrick.forcanada"
+	}],
+	"CAMBRIDGE": [{
+		"name": "Bryan May",
+		"party": "Liberal - incumbent",
+		"website": "https://liberal.ca/ridings/35016/"
+	}, {
+		"name": "Connie Cody",
+		"party": "Conservative",
+		"website": "https://conniecody.ca/"
+	}, {
+		"name": "Lorne Bruce",
+		"party": "NDP",
+		"website": "https://cambridge.ndp.ca/"
+	}, {
+		"name": "Michelle Braniff",
+		"party": "Green",
+		"website": "https://www.greenparty.ca/en/riding/2013-35016"
+	}, {
+		"name": "Maggie Segounis",
+		"party": "People's Party",
+		"website": "https://www.peoplespartyofcanada.ca/maggie_segounis"
+	}],
+	"GUELPH": [{
+		"name": "Lloyd Longfield",
+		"party": "Liberal - incumbent",
+		"website": "https://liberal.ca/ridings/35032/"
+	}, {
+		"name": "Ashish Sachan",
+		"party": "Conservative",
+		"website": "https://ashishsachan.ca/"
+	}, {
+		"name": "Aisha Jahangir",
+		"party": "NDP",
+		"website": "https://aishajahangir.ndp.ca/"
+	}, {
+		"name": "Michelle Bowman",
+		"party": "Green Party",
+		"website": "https://www.facebook.com/4Guelph/"
+	}, {
+		"name": "Joshua Leier",
+		"party": "People's Party",
+		"website": "https://www.peoplespartyofcanada.ca/joshua_leier"
+	}],
+	"BRANTFORD-BRANT": [{
+		"name": "Alison Macdonald",
+		"party": "Liberal",
+		"website": "https://liberal.ca/ridings/35013/"
+	}, {
+		"name": "Larry Brock",
+		"party": "Conservative",
+		"website": "https://larrybrock.ca/"
+	}, {
+		"name": "Adrienne Roberts",
+		"party": "NDP",
+		"website": "http://adrienneroberts.ndp.ca"
+	}, {
+		"name": "Cole Squire",
+		"party": "People's Party",
+		"website": "https://www.peoplespartyofcanada.ca/cole_squire"
+	}],
+	"WELLINGTON-HALTON HILLS": [{
+		"name": "Melanie Lang",
+		"party": "Liberal",
+		"website": "https://melanielang.liberal.ca/"
+	}, {
+		"name": "Michael Chong",
+		"party": "Conservative - incumbent",
+		"website": "http://michaelchong.ca"
+	}, {
+		"name": "Ran Zhu",
+		"party": "Green Party",
+		"website": "https://www.whhgreens.com/"
+	}, {
+		"name": "Sylvain Carle",
+		"party": "People's Party",
+		"website": "https://whh-ppc-eda.square.site/our-candidate"
+	}],
+	"PERTH-WELLINGTON": [{
+		"name": "Brendan Knight ",
+		"party": "Liberal",
+		"website": "http://brendanknight.liberal.ca"
+	}, {
+		"name": "John Nater",
+		"party": "Conservative - incumbent",
+		"website": "https://www.perthwellington.ca/"
+	}, {
+		"name": "Kevin Kruchkywich",
+		"party": "NDP",
+		"website": "https://perthwellington.ndp.ca/?_gl=1*j82r2j*_ga*NzQ4NzY0NjQyLjE2MjkyMTczNzc.*_ga_97QLYMLC56*MTYyOTk4NDA1MS4zLjEuMTYyOTk4NDU0MC4w"
+	}, {
+		"name": "Wayne Baker",
+		"party": "People's Party",
+		"website": "https://www.peoplespartyofcanada.ca/wayne_baker"
+	}],
+	"OXFORD": [{
+		"name": "Elizabeth Quinto",
+		"party": "Liberal",
+		"website": "https://elizabethquinto.liberal.ca/"
+	}, {
+		"name": "Dave Mackenzie",
+		"party": "Conservative - incumbent",
+		"website": "https://davemackenzie.ca/"
+	}, {
+		"name": "Matthew Chambers",
+		"party": "NDP",
+		"website": "https://twitter.com/MatthewNewDem"
+	}, {
+		"name": "Wendy Martin",
+		"party": "People's Party",
+		"website": "https://www.facebook.com/wendymartinppc/"
+	}],
+	"HURON-BRUCE": [{
+		"name": "James Rice",
+		"party": "Liberal",
+		"website": "https://jamesrice.liberal.ca/"
+	}, {
+		"name": "Ben Lobb",
+		"party": "Conservative - incumbent",
+		"website": "http://www.benlobb.com/"
+	}, {
+		"name": "Jack Stecho",
+		"party": "People's Party",
+		"website": "https://twitter.com/jackstechoppc?lang=en"
+	}, {
+		"name": "Justin L. Smith",
+		"party": "Independent",
+		"website": "http://www.justinlsmith.ca"
+	}]
+}
