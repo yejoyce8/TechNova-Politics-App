@@ -1,0 +1,1 @@
+# TechNova-Politics-App
