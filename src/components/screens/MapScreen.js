@@ -161,8 +161,8 @@ function MapScreen({ navigation }) {
             <MapView.Marker coordinate={location.coords} title="  Me " />
             <MapView.Marker
               coordinate={{
-                latitude: 43.51132655075163,
-                longitude: -80.52223644643036,
+                latitude: "43.51132655075163",
+                longitude: "-80.52223644643036",
               }}
               title="Elections Canada"
               description="Open 9:00am - 9:00pm"
