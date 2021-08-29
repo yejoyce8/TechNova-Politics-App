@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Button, TouchableOpacity,Platform,
+  Dimensions,
+  SafeAreaView, } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {useState, useEffect} from 'react'
@@ -10,7 +12,8 @@ import TwitterLiveFeedScreen from './screens/twitterlivefeedscreen'
 import GeneralInfoScreen from './screens/generalinfoscreen'
 import LocationServiceScreen from './screens/locationservicescreen'
 import MPDatabaseScreen from './screens/mpdatabasescreen'
-
+import MapScreen from "./screens/MapScreen";
+import RepProfileScreen from "./screens/RepProfileScreen";
 
 
 
@@ -24,13 +27,27 @@ function MyTabs() {
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Twitter" component={TwitterLiveFeedScreen} />
       <Tab.Screen name="Elections" component={GeneralInfoScreen} />
-      <Tab.Screen name="Local" component={LocationServiceScreen} />
+      <Tab.Screen name="Local" component={MapScreen} />
       <Tab.Screen name="MPs" component={MPDatabaseScreen} />
     </Tab.Navigator>
   );
 }
 
 
+
+
+// const Stack = createNativeStackNavigator();
+
+// export default function App() {
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator>
+//         <Stack.Screen name="Map" component={MapScreen} />
+//         <Stack.Screen name="RepProfile" component={RepProfileScreen} />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   )
+// }
 
 
 

@@ -13,7 +13,7 @@ export default function RepProfileScreen({ route, navigation }) {
       <Image 
         style={styles.image}
         source={{ uri: profile.photo_url }}
-        defaultSource={require("../assets/profile.jpg")}
+        defaultSource={require("../../../assets/profile.jpg")}
       />
       <Text style={styles.name}>{profile.name}</Text>
       <Text style={styles.email}>{profile.email}</Text>

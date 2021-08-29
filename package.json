@@ -8,10 +8,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
     "@react-navigation/bottom-tabs": "^6.0.5",
->>>>>>> 76a26c9a8bcaa99231ecaf1274eec303a0f3d243
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.1.0",
     "expo": "~42.0.1",
