@@ -22,8 +22,8 @@ const Stack = createNativeStackNavigator();
 export default function LocationServiceScreen() {
   return (
     <Stack.Navigator>
-       <Stack.Screen name="Map" component={MapScreen} />
-       <Stack.Screen name="RepProfile" component={RepProfileScreen} />
+       <Stack.Screen name="Election Offices" component={MapScreen} />
+       <Stack.Screen name="MP Profile" component={RepProfileScreen} />
     </Stack.Navigator>
   );
 }
