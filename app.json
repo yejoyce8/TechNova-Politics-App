@@ -3,9 +3,7 @@
     "name": "TechNova",
     "slug": "TechNova",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   },
   "name": "TechNova"
 }
