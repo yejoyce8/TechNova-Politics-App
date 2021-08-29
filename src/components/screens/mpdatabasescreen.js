@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, FlatList, TextInput, Button } from 'react-native';
+import { Text, View, FlatList, TextInput, Button, ImageBackground } from 'react-native';
 import MpProfile from '../mpprofile';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {useState, useEffect} from 'react'
@@ -12,12 +12,15 @@ function MPHomePage({navigation}){
   const [searchValue, onChangeText] = useState();
   return(
     <View>
+      <ImageBackground style={{width:'100%', height:500}} source={require("../../../assets/homepagebackground1.png")}>
+        <Text style={{fontFamily: 'Avenir-Heavy', fontSize: 26, alignSelf:'center', marginTop: 40}}>Find Your Local MP</Text>
       <SearchBarInput
       onChangeText={text => onChangeText(text)}
       value={searchValue}
       />
-      <Button title='Enter' style={{borderWidth:1, padding: 10, alignSelf: 'center', marginTop: 20}}
+      <Button title='Enter' style={{borderWidth:1, padding: 10, alignSelf: 'center', marginTop: 40}}
       onPress={() => navigation.navigate(searchValue)}/>
+      </ImageBackground>
     </View>
   )
 }  
@@ -25,6 +28,7 @@ function MPHomePage({navigation}){
 function SearchBarInput(props){
   return(
     <View>
+
       <TextInput
       {...props}
       editable
@@ -36,6 +40,8 @@ function SearchBarInput(props){
     
       placeholder="Search for city or region..."
       />
+
+
     </View>
   )
 }
@@ -45,7 +51,7 @@ function SearchBarInput(props){
 export default function MPDatabaseScreen(){
   return(
     <Stack.Navigator initialRouteName="Home">
-      <Stack.Screen name="Search below:" component={MPHomePage} />
+      <Stack.Screen name="Search Engine" component={MPHomePage} />
       <Stack.Screen name="Waterloo" component={MPWaterlooScreen} />
       <Stack.Screen name="Kitchener centre" component={MPKC} />
       <Stack.Screen name="Kitchener conestoga" component={MPKCon} />
@@ -88,14 +94,16 @@ const waterlooObj =
 
     return (
       <ScrollView>
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style = {{marginTop: 15}}>MPs in 'WATERLOO' region:</Text>
+        <ImageBackground style={{width:'100%', height:'100%'}} source={require("../../../assets/bluebox.png")}>
+
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', marginBottom: 40 }}>
+        <Text style = {{marginTop: 40, fontFamily:'Avenir-Light', fontSize: 16}}>MPs in 'WATERLOO' region:</Text>
         <MpProfile name={waterlooObj[0].name} party={waterlooObj[0].party} website={waterlooObj[0].website} />
         <MpProfile name={waterlooObj[1].name} party={waterlooObj[1].party} website={waterlooObj[1].website} />
         <MpProfile name={waterlooObj[2].name} party={waterlooObj[2].party} website={waterlooObj[2].website} />
         <MpProfile name={waterlooObj[3].name} party={waterlooObj[3].party} website={waterlooObj[3].website} />
-  
-      </View>
+        </View>
+        </ImageBackground>
       </ScrollView>
       
       

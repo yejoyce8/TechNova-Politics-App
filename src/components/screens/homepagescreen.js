@@ -31,7 +31,7 @@ export default function HomeScreen() {
               APP NAME
             </Text>
 
-            <View style = {{alignItems: 'center', marginTop: 100, marginBottom: 100}}>
+            <View style = {{alignItems: 'center', marginTop: 100, marginBottom: 120}}>
             <Text style = {{fontFamily: 'Avenir-Heavy', fontSize: 30, color: '#071A5D'}}>Elections end in:</Text>
               <ImageBackground style = {{width:'100%', alignItems: 'center', paddingTop: 10, paddingBottom: 10}} source={require("../../../assets/darkbluebox.png")} >
                 <CountDownTimer hoursMinSecs={hoursMinSecs} />
@@ -46,58 +46,61 @@ export default function HomeScreen() {
           <Text style={{fontFamily: 'Avenir-Heavy', fontSize: 26}}>
               Upcoming Events:
             </Text>
-          <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
+          <View style={{ backgroundColor: "white", marginTop: 20, borderRadius: 10 }}>
             
-            <ImageBackground style = {{width: '100%'}} source ={require("../../../assets/bluebox.png")} resizeMode = 'cover'>
-              <Button style={{color: 'blue'}} 
+            <ImageBackground style = {{width: '100%', color: 'white'}} resizeMode = 'cover'>
+              <Button style={{color: '#071A5D'}} 
               title='Liberal Party events'
-              onPress={() => Linking.openURL('http://google.com')}/>
+              onPress={() => Linking.openURL('https://event.liberal.ca/')}/>
 
               <Text style={{color: "white",
-    backgroundColor: "#000000c0", padding: 10}}>9 a.m. making an announcement and holding a media availability at Nafisa Middle Eastern Cuisine in Mississauga.
-                    5 p.m. meeting with supporters at the Hampton Inn in Bolton, Ont.</Text>
+    backgroundColor: "#5968AB", padding: 15, fontSize: 16,fontFamily: 'Avenir-Light'}}>Tomorrow at 9 a.m. making an announcement and holding a media availability at Nafisa Middle Eastern Cuisine in Mississauga.
+                    </Text>
+                    
             </ImageBackground>
-    
-              
-
           </View>
 
-          <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
+
+          <View style={{ backgroundColor: "white", marginTop: 20, borderRadius: 10 }}>
             <Button style={{color: 'blue'}} 
             title='Conversative Party events'
-            onPress={() => Linking.openURL('http://google.com')}/>
+            onPress={() => Linking.openURL('https://www.conservative.ca/events/')}/>
+            <Text style={{color: "white",
+    backgroundColor: "#5968AB", padding: 15, fontSize: 16, fontFamily: 'Avenir-Light'}}>Thursday at 9:30 a.m. making an announcement and holding a media availability at the Glynmill Inn in Corner Brook, N.L.
+  </Text>
 
-            <Text>9:30 a.m. making an announcement and holding a media availability at the Glynmill Inn in Corner Brook, N.L.
-    5 p.m. attending an event with supporters at the North Sydney Firefighters Club in North Sydney, N.S.</Text>
           </View>
-          <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
+
+
+
+          <View style={{ backgroundColor: "white", marginTop: 20, borderRadius: 10 }}>
             <Button style={{color: 'blue'}} 
             title='NDP Party events'
-            onPress={() => Linking.openURL('http://google.com')}/>
+            onPress={() => Linking.openURL('https://www.ontariondp.ca/events')}/>
 
-            <Text>9:30 a.m. making an announcement on health care and holding a media availability at the Valhalla Inn Hotel.
-2 p.m. meeting with regional First Nations leaders at the Valhalla Inn Hotel.
-3:30 p.m. visiting a local bakery.
-4 p.m. attending the campaign kick-off for the NDP candidate in Thunder Bay-Rainy River.</Text>
+            <Text style={{color: "white",
+    backgroundColor: "#5968AB", padding: 15, fontSize: 16, fontFamily: 'Avenir-Light'}}> Tuesday at 9:30 a.m. making an announcement on health care and holding a media availability at the Valhalla Inn Hotel.
+</Text>
           </View>
 
-          <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
+          <View style={{ backgroundColor: "white", marginTop: 20, borderRadius: 10 }}>
             <Button style={{color: 'blue'}} 
             title='Bloc Québécois Party events'
-            onPress={() => Linking.openURL('http://google.com')}/>
+            onPress={() => Linking.openURL('https://www.blocquebecois.org/')}/>
 
-            <Text> 9:45 a.m. holding a press conference on the aluminum sector at the Citizen Square in Chicoutimi.
-2:30 p.m. holding a press conference on green energy projects at the Port of Saguenay.</Text>
+            <Text style={{color: "white",
+    backgroundColor: "#5968AB", padding: 15, fontSize: 16, fontFamily: 'Avenir-Light'}}>Friday at 9:45 a.m. holding a press conference on the aluminum sector at the Citizen Square in Chicoutimi.
+</Text>
           </View>
 
-          <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
+          <View style={{ backgroundColor: "white", marginTop: 20, borderRadius: 10 }}>
             <Button style={{color: 'blue'}} 
             title='Green Party events'
-            onPress={() => Linking.openURL('http://google.com')}/>
+            onPress={() => Linking.openURL('https://www.greenparty.ca/en/events/all')}/>
 
-            <Text>11:45 a.m. delivering remarks at the Masjid Toronto mosque on Adelaide St.
-2:30 p.m. holding a press conference in St. James Park to address the situation in Afghanistan.
-5 p.m. attending community events in the Regent Park neighbourhood.</Text>
+            <Text style={{color: "white",
+    backgroundColor: "#5968AB", padding: 15, fontSize: 16, fontFamily: 'Avenir-Light'}}>Wednesday at 11:45 a.m. delivering remarks at the Masjid Toronto mosque on Adelaide St.
+</Text>
           </View>
           
 
