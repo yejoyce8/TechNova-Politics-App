@@ -23,7 +23,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView> 
       <ScrollView>
-        <ImageBackground style={{width:'100%'}} source={require("../../../assets/homepagebackground2.png")}>
+        <ImageBackground style={{width:'100%'}} source={require("../../../assets/homepagebackgroundlogo.png")}>
         <View style={{ flexDirection: "column", flex: 1,
         padding: 20}}>
           <View style = {{borderRadius: 10}}>

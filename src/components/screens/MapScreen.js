@@ -23,7 +23,7 @@ export default function LocationServiceScreen() {
   return (
     <Stack.Navigator>
        <Stack.Screen name="Election Offices" component={MapScreen} />
-       <Stack.Screen name="MP Profile" component={RepProfileScreen} />
+       <Stack.Screen name="RepProfile" component={RepProfileScreen} />
     </Stack.Navigator>
   );
 }
