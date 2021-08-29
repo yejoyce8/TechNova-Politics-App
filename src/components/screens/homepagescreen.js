@@ -28,7 +28,7 @@ export default function HomeScreen() {
         padding: 20}}>
           <View style = {{borderRadius: 10}}>
             <Text style={{alignSelf:"center", fontFamily:'Avenir-Light', fontSize: 16}}>
-              APP NAME
+              POLITI-GO!
             </Text>
 
             <View style = {{alignItems: 'center', marginTop: 100, marginBottom: 120}}>
