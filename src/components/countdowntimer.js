@@ -32,7 +32,7 @@ const CountDownTimer = ({hoursMinSecs}) => {
 
     
     return (
-            <Text>{`10 D ${hrs.toString().padStart(2, '0')} H ${mins
+            <Text style={{fontSize:30}}>{`10 D ${hrs.toString().padStart(2, '0')} H ${mins
             .toString()
             .padStart(2, '0')} M ${secs.toString().padStart(2, '0')} S`}</Text> 
     );

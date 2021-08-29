@@ -2,7 +2,6 @@ import * as React from 'react';
 import { StyleSheet, Text, View, Linking, Button, SafeAreaView, ScrollView, ImageBackground} from 'react-native';
 import CountDownTimer from '../countdowntimer'
 
-const imageexpo = { uri: "https://reactjs.org/logo-og.png" };
 
 const liberalpartylogo = {uri: 'https://s31184.pcdn.co/wp-content/uploads/sites/292/2019/11/liberal-OG-1024x538.png'}
 
@@ -16,14 +15,15 @@ export default function HomeScreen() {
   return (
     <SafeAreaView> 
       <ScrollView>
+        <ImageBackground style={{width:'100%'}}>
         <View style={{ flexDirection: "column", flex: 1,
         padding: 20}}>
           <View style = {{borderRadius: 10}}>
-            <Text style = {{padding: 10, fontSize: '30'}}>Welcome to the home page</Text>
+            
 
             <View style = {{alignItems: 'center'}}>
               
-               <Text style = {{fontFamily: 'Copperplate', fontSize: 20}}>Elections end in:</Text>
+               <Text style = {{fontFamily: 'Avenir-Heavy', fontSize: 25}}>Elections end in:</Text>
               <CountDownTimer hoursMinSecs={hoursMinSecs} />
              
 
@@ -33,12 +33,13 @@ export default function HomeScreen() {
           
 
           <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
-            <ImageBackground style = {{width: '100%', opacity: 0.3}} source ={liberalpartylogo} resizeMode = 'cover'>
+            <ImageBackground style = {{width: '100%'}} source ={liberalpartylogo} resizeMode = 'cover'>
               <Button style={{color: 'blue'}} 
               title='Liberal Party events'
               onPress={() => Linking.openURL('http://google.com')}/>
 
-              <Text >9 a.m. making an announcement and holding a media availability at Nafisa Middle Eastern                         Cuisine in Mississauga.
+              <Text style={{color: "white",
+    backgroundColor: "#000000c0", padding: 10}}>9 a.m. making an announcement and holding a media availability at Nafisa Middle Eastern Cuisine in Mississauga.
                     5 p.m. meeting with supporters at the Hampton Inn in Bolton, Ont.</Text>
             </ImageBackground>
     
@@ -86,6 +87,9 @@ export default function HomeScreen() {
           
 
         </View>
+
+        </ImageBackground>
+        
 
       </ScrollView>
 
