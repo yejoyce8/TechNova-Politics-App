@@ -1,39 +1,54 @@
 import * as React from 'react';
-import { StyleSheet, Text, View, Linking, Button, SafeAreaView, ScrollView, ImageBackground} from 'react-native';
+import { StyleSheet, Text, View, Linking, Button, SafeAreaView, ScrollView, ImageBackground, Image} from 'react-native';
 import CountDownTimer from '../countdowntimer'
 
 
 const liberalpartylogo = {uri: 'https://s31184.pcdn.co/wp-content/uploads/sites/292/2019/11/liberal-OG-1024x538.png'}
 
 
+//header:
+// style={{fontFamily: 'Avenir-Heavy', fontSize: 26}}
+
+//dark blue: 
+// color: '#071A5D'
+
+//normal:
+// style={{fontFamily:'Avenir-Light', fontSize: 16}}
 
 export default function HomeScreen() {
   
   const hoursMinSecs = {hours:23, minutes: 20, seconds: 40}
-  
 
+  
   return (
     <SafeAreaView> 
       <ScrollView>
-        <ImageBackground style={{width:'100%'}}>
+        <ImageBackground style={{width:'100%'}} source={require("../../../assets/homepagebackground2.png")}>
         <View style={{ flexDirection: "column", flex: 1,
         padding: 20}}>
           <View style = {{borderRadius: 10}}>
-            
+            <Text style={{alignSelf:"center", fontFamily:'Avenir-Light', fontSize: 16}}>
+              APP NAME
+            </Text>
 
-            <View style = {{alignItems: 'center'}}>
-              
-               <Text style = {{fontFamily: 'Avenir-Heavy', fontSize: 25}}>Elections end in:</Text>
-              <CountDownTimer hoursMinSecs={hoursMinSecs} />
-             
+            <View style = {{alignItems: 'center', marginTop: 100, marginBottom: 100}}>
+            <Text style = {{fontFamily: 'Avenir-Heavy', fontSize: 30, color: '#071A5D'}}>Elections end in:</Text>
+              <ImageBackground style = {{width:'100%', alignItems: 'center', paddingTop: 10, paddingBottom: 10}} source={require("../../../assets/darkbluebox.png")} >
+                <CountDownTimer hoursMinSecs={hoursMinSecs} />
+              </ImageBackground>
+
 
             </View>
             
           </View>
           
 
+          <Text style={{fontFamily: 'Avenir-Heavy', fontSize: 26}}>
+              Upcoming Events:
+            </Text>
           <View style={{ backgroundColor: "white", marginTop: 10, borderRadius: 10 }}>
-            <ImageBackground style = {{width: '100%'}} source ={liberalpartylogo} resizeMode = 'cover'>
+            
+            <ImageBackground style = {{width: '100%'}} source ={require("../../../assets/bluebox.png")} resizeMode = 'cover'>
               <Button style={{color: 'blue'}} 
               title='Liberal Party events'
               onPress={() => Linking.openURL('http://google.com')}/>

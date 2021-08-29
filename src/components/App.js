@@ -5,17 +5,16 @@ import { StyleSheet, Text, View, Button, TouchableOpacity,Platform,
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {useState, useEffect} from 'react'
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 //import the component pages
 import HomeScreen from './screens/homepagescreen'
 import TwitterLiveFeedScreen from './screens/twitterlivefeedscreen'
 import GeneralInfoScreen from './screens/generalinfoscreen'
-import LocationServiceScreen from './screens/locationservicescreen'
 import MPDatabaseScreen from './screens/mpdatabasescreen'
 import MapScreen from "./screens/MapScreen";
 import RepProfileScreen from "./screens/RepProfileScreen";
-
-
+import LocationServiceScreen from './screens/MapScreen';
 
 
 const Tab = createBottomTabNavigator();
@@ -27,7 +26,7 @@ function MyTabs() {
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Twitter" component={TwitterLiveFeedScreen} />
       <Tab.Screen name="Elections" component={GeneralInfoScreen} />
-      <Tab.Screen name="Local" component={MapScreen} />
+      <Tab.Screen name="Local" component={LocationServiceScreen} />
       <Tab.Screen name="MPs" component={MPDatabaseScreen} />
     </Tab.Navigator>
   );
@@ -36,15 +35,15 @@ function MyTabs() {
 
 
 
-// const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
 // export default function App() {
 //   return (
 //     <NavigationContainer>
-//       <Stack.Navigator>
-//         <Stack.Screen name="Map" component={MapScreen} />
-//         <Stack.Screen name="RepProfile" component={RepProfileScreen} />
-//       </Stack.Navigator>
+//        {/* <Stack.Navigator>
+      //   <Stack.Screen name="Map" component={MapScreen} />
+      //   <Stack.Screen name="RepProfile" component={RepProfileScreen} />
+      // </Stack.Navigator> */}
 //     </NavigationContainer>
 //   )
 // }
@@ -55,7 +54,7 @@ export default function App() {
   
   return (
     <NavigationContainer>
-      
+     
       <MyTabs />
       
     </NavigationContainer>

@@ -13,7 +13,24 @@ import Constants from "expo-constants";
 import * as Location from "expo-location";
 import MapView from "react-native-maps";
 
-export default function MapScreen({ navigation }) {
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import RepProfileScreen from "./RepProfileScreen";
+
+
+const Stack = createNativeStackNavigator();
+
+export default function LocationServiceScreen() {
+  return (
+    <Stack.Navigator>
+       <Stack.Screen name="Map" component={MapScreen} />
+       <Stack.Screen name="RepProfile" component={RepProfileScreen} />
+    </Stack.Navigator>
+  );
+}
+
+
+
+function MapScreen({ navigation }) {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [permissionsGranted, setPermissionsGranted] = useState(false); // we use the useState functionality to 'store' persistent data, like whether we've been granted permissions to use the device's location
